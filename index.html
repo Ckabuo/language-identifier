@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <title>language identifier</title>
+</head>
+
+<body style="background-color: darkolivegreen;">
+    <!--
+        Write a program that returns the programming language based on the file name a user inputs
+        There should be at least 5 languages that the user can input
+        E.g if a user enters "assignment.py",the program should output "You've entered a phyton file"
+        The same for the other languages you choose
+    -->
+    <div class="card text-center m-auto shadow p-3 mb-5 bg-body rounded"
+        style="width: 22rem; margin-top: 35vh !important;">
+        <div class="card-body">
+            <h5 class="card-title" id="display">
+                <strong></strong>
+            </h5>
+            <br>
+            <form>
+                <label for="language">Enter a programming language</label>
+                <input type="text" name="language" id="language" placeholder="E.g index.html" class="">
+                <br><br>
+                <button type="button" class="btn btn-outline-primary" onclick="languageCheck()">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="sandbox.js"></script>
+</body>
+
+</html>
